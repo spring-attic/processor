@@ -23,7 +23,7 @@ import ratpack.websocket.WebSocketHandler;
 import ratpack.websocket.WebSocketMessage;
 import reactor.core.Environment;
 import reactor.rx.Stream;
-import reactor.rx.spec.Streams;
+import reactor.rx.Streams;
 import reactor.spring.context.config.EnableReactor;
 
 import static ratpack.jackson.Jackson.fromJson;
