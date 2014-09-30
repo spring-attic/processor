@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 import reactor.core.Environment;
 import reactor.function.Consumer;
 import reactor.rx.Stream;
+import reactor.rx.Streams;
 import reactor.rx.action.Action;
-import reactor.rx.spec.Streams;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
